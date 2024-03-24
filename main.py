@@ -1,7 +1,7 @@
 import os
 from typee import file
 
-location = input("enter your directory")
+location = input("enter your directory: ")
 
 os.mkdir(location+"/Document")
 os.mkdir(location+"/Picture")
@@ -22,3 +22,6 @@ for i in os.listdir(location):
         os.rename(location+"/"+i, location+"/Compressed/"+i)
     elif x in file["Audio"]:
         os.rename(location+"/"+i, location+"/Audio/"+i)
+
+
+print("completed")
