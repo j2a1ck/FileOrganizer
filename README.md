@@ -4,7 +4,7 @@ This Python script organizes files in a specified directory into categorized sub
 
 ## Prerequisites
 
-- Python 3.x  
+- Python 3.x 
 
 ## How to Use
 
@@ -14,14 +14,11 @@ This Python script organizes files in a specified directory into categorized sub
 4. Enter the directory path you want to organize when prompted.
 5. Sit back and watch as your files are organized into appropriate folders within the specified directory.
 
+## Features
 
-Features
---------
+- Automatically creates subdirectories for different file types.
+- Moves files into respective directories based on their file types.
 
-*   Automatically creates subdirectories for different file types.
-*   Moves files into respective directories based on their file types.
+## Notes
 
-Notes
------
-
-*   Ensure that you have necessary permissions to create directories and move files in the specified directory.
+- Ensure that you have the necessary permissions to create directories and move files in the specified directory.
